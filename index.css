@@ -1,0 +1,160 @@
+*{
+    margin: 0%;
+   
+
+}
+::-webkit-scrollbar{
+    width:15px;
+
+}
+::-webkit-scrollbar-track{
+    width: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    
+
+}
+::-webkit-scrollbar-thumb{
+    width: 10px;
+    background-color: #a200fa;
+    border-radius: 80px;
+}
+body{
+    margin:0%;
+    
+}
+
+.navig{
+    height: 50px;
+    width: 100%;
+    /* border: 2px  solid white; */
+    background: rgb(230,13,210);
+    background: linear-gradient(90deg, rgba(230,13,210,1) 0%, rgba(114,9,121,1) 30%, rgba(184,0,255,0.8603816526610644) 100%);
+    display: flex;
+    justify-content: flex-end;
+
+}
+.navi{
+    padding: 15px;
+
+
+}
+.text1{
+    /* text-align: justify; */
+    width: 700px;
+    color: hsl(307, 93%, 46%);
+    line-height: 1.7;
+    text-indent: 40px;
+}
+.text{
+    text-align: justify;
+    font-family: "Segoe Script";
+    font-weight: lighter;
+    position: relative;
+    bottom: 320px;
+    left:40px;
+    
+}
+.heade{
+    color: rgb(255, 255, 255);
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    position: relative;
+    right: 950px;
+    padding: 5px;
+    text-align: center;
+
+}
+.alink{
+    color: rgb(255, 255, 255);
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    padding: 10px;
+    text-decoration: none;
+}
+.aimg{
+    display: flex;
+    justify-content:end;
+    position: relative;
+    right:120px;
+    top:50px;
+}
+.headp{
+    color: rgb(151, 27, 155);
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    position: relative;
+    right: 200px;
+    top: 50px;
+    
+}
+.box1{
+width: 100%;
+height: 400px;
+background: linear-gradient(90deg, #a200fa 0%, #cf08dd 100%); 
+border-radius: 20px;
+position: relative;
+bottom: 200px;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+
+}
+.imga{
+    width:300px;
+    height:250px;
+    border: 3px solid white;
+    border-radius: 30px 0px;
+    position: relative;
+    bottom: 30px;
+}
+.imgab{
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    text-align: center;
+}
+.headr{
+    color: black;
+    font-family: "Ubuntu", sans-serif;
+    position: relative;
+    bottom: 150px;
+    left: 10px;
+}
+.box2{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    position:relative;
+    bottom: 100px;
+    
+    
+    
+}
+.imgea{
+    height: 300px;
+  
+}
+.imgea:hover{
+    filter: drop-shadow(0 0 0.55rem rgb(0, 0, 0));
+}
+.he{
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+
+}
+.footer{
+    margin: 0%;
+    padding: 0%;
+}
+.aim{
+    cursor: pointer;
+}
+.aim:hover{
+    filter: drop-shadow(0 0 0.95rem crimson);
+}
+.imgab:hover{
+    filter: drop-shadow(0 0 0.95rem rgb(255, 253, 253));
+}
